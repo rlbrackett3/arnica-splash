@@ -1,1 +1,24 @@
-@import "variables", "mixins", "fonts"
+@import "susy"
+@import "variables", "mixins", "fonts", "grid"
+
+body
+  min-width: 300px
+
+.container
+  +container
+  +susy-grid-background
+
+header.site
+  position: relative
+  height: 250px
+  background-color: $header-background
+
+  #logo
+    +container
+    // +susy-grid-background
+    +span-columns(2, 12)
+    +push (5)
+    padding-top: 90px
+
+    img
+
