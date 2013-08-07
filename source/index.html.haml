@@ -4,6 +4,11 @@ body_class: index
 ---
 
 .welcome
-  %h1 Middleman is Watching
-  %p.doc
-    = link_to "Read Online Documentation", "http://middlemanapp.com/"
+  %h4 Arnica is coming soon. Be notified when we’re open:
+  .mailing-list
+    // Begin MailChimp Signup Form
+    #mc_embed_signup
+      %form#mc-embedded-subscribe-form.validate{ action: "http://miscproj.us7.list-manage1.com/subscribe/post?u=c7a7fa80278db4d1ce815b830&id=32172d02cb", method: "post", name: "mc-embedded-subscribe-form", novalidate: "", target: "_blank" }
+        / %label{ for: "mce-EMAIL" } Subscribe to our mailing list
+        %input#mce-EMAIL.email{ name: "EMAIL", placeholder: "E-mail", required: "", type: "email", value: ""}
+        %input#mc-embedded-subscribe.button{ name: "subscribe", type: "submit", value: ">"}
