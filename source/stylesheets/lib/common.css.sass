@@ -10,7 +10,7 @@
 
 
 body
-  min-width: 300px
+  min-width: 480px
   margin: 0
   padding: 0
 
@@ -43,37 +43,41 @@ header.site
   h4
     +span-columns(6, 12)
     +push(3)
-    min-width: 200px
+    // min-width: 200px
 
   .mailing-list
     +span-columns(4, 12)
     +push(4)
-    min-width: 200px
+    // min-width: 200px
+    max-height: 40px
 
     form
-      width: auto
-      height: auto
-      margin: 0 15%
+      +span-columns(4, 4)
 
       input
         position: relative
         float: left
 
       input.email
-        width: 75%
+        width: 55%
         height: 18px
-        margin-right: 5px
+        margin-right: 2%
+        margin-left: 13%
         padding: 5px
         border: 1px solid $dark-grey
         +futura-lt-pro-book
 
       input.button
+        // width: 10%
         width: 30px
         height: 30px
         border: 1px solid $dark-grey
-        background: none
+        background-image: url('../images/submit.png')
+        background-repeat:no-repeat
+        background-attachment:fixed
+        background-position:center
+
 
         &:hover
           background-color: $header-background
-          color: white
           cursor: pointer
