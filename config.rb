@@ -55,6 +55,9 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+
+  activate :favicon_maker
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 

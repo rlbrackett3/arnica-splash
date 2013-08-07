@@ -10,6 +10,8 @@ gem 'susy'
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
+gem "middleman-favicon-maker", "~> 3.2"
+
 gem "therubyracer", :require => 'v8'
 
 # For faster file watcher updates on Windows:
