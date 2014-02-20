@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-image"
+			],
+			[
 				"header",
 				"header-background"
 			],
@@ -107,70 +111,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "source/index.html.haml",
-			"settings":
-			{
-				"buffer_size": 703,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/layouts/layout.html.haml",
-			"settings":
-			{
-				"buffer_size": 2709,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 484,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/stylesheets/lib/common.css.sass",
-			"settings":
-			{
-				"buffer_size": 1248,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/stylesheets/lib/_typography.css.sass",
-			"settings":
-			{
-				"buffer_size": 1916,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/stylesheets/lib/_fonts.css.sass",
-			"settings":
-			{
-				"buffer_size": 4411,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/stylesheets/lib/_variables.css.sass",
-			"settings":
-			{
-				"buffer_size": 69,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/stylesheets/application.css.sass",
-			"settings":
-			{
-				"buffer_size": 20,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -236,22 +176,26 @@
 	},
 	"file_history":
 	[
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/lib/_grid.css.sass",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/application.css.sass",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/lib/_variables.css.sass",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/lib/_fonts.css.sass",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/lib/_typography.css.sass",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/lib/common.css.sass",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/index.html.haml",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/layouts/layout.html.haml",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/Gemfile",
+		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/config.rb",
 		"/home/robert/Dropbox/Sites/loco_site/public/stylesheets/general/_fonts.sass",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/vendor/all.css",
 		"/home/robert/Dropbox/Sites/loco_site/public/stylesheets/base/_grids.sass",
-		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/lib/_grid.css.sass",
-		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/config.rb",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/javascripts/vendor/common.js.coffee",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/Rakefile",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/javascripts/application.js.coffee",
-		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/Gemfile",
-		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/lib/common.css.sass",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/vendor/normalize.css",
-		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/stylesheets/application.css.sass",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/layouts/layout.haml",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/javascripts/all.js.coffee",
 		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/config.ru",
-		"/home/robert/Dropbox/Sites/mm-apps/arnica-landing/source/index.html.haml",
 		"/home/robert/Dropbox/Sites/mm-apps/.ruby-version",
 		"/home/robert/Dropbox/Sites/mm-apps/.ruby-gemset",
 		"/home/robert/Dropbox/Sites/loco_site/public/stylesheets/screen.css.sass",
@@ -359,11 +303,7 @@
 		"/home/robert/Dropbox/Sites/Locomotiveapps/unspace-editor/data/publications.yml",
 		"/home/robert/Dropbox/Sites/Locomotiveapps/unspace-editor/data/exhibitions.yml",
 		"/home/robert/Dropbox/Sites/Locomotiveapps/unspace-editor/data/awards.yml",
-		"/home/robert/Dropbox/Sites/Locomotiveapps/unspace-editor/data/company_details.yml",
-		"/home/robert/Dropbox/Sites/Locomotiveapps/dnblogs-editor/config/site.yml",
-		"/home/robert/Dropbox/Sites/Locomotiveapps/unspace-editor/app/content_types/company_details.yml",
-		"/home/robert/Dropbox/Sites/Locomotiveapps/dnblogs-editor/app/content_types/posts.yml",
-		"/home/robert/Dropbox/Sites/Locomotiveapps/dnblogs-editor/app/content_types/photos.yml"
+		"/home/robert/Dropbox/Sites/Locomotiveapps/unspace-editor/data/company_details.yml"
 	],
 	"find":
 	{
@@ -527,307 +467,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "source/index.html.haml",
-					"settings":
-					{
-						"buffer_size": 703,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								703,
-								703
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/layouts/layout.html.haml",
-					"settings":
-					{
-						"buffer_size": 2709,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								671,
-								671
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								275,
-								275
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "source/stylesheets/lib/common.css.sass",
-					"settings":
-					{
-						"buffer_size": 1248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								926,
-								926
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "source/stylesheets/lib/_typography.css.sass",
-					"settings":
-					{
-						"buffer_size": 1916,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								432,
-								432
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "source/stylesheets/lib/_fonts.css.sass",
-					"settings":
-					{
-						"buffer_size": 4411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2063,
-								2063
-							],
-							[
-								2099,
-								2099
-							],
-							[
-								2164,
-								2164
-							],
-							[
-								2210,
-								2210
-							],
-							[
-								2309,
-								2309
-							],
-							[
-								2345,
-								2345
-							],
-							[
-								2410,
-								2410
-							],
-							[
-								2456,
-								2456
-							],
-							[
-								2560,
-								2560
-							],
-							[
-								2596,
-								2596
-							],
-							[
-								2661,
-								2661
-							],
-							[
-								2707,
-								2707
-							],
-							[
-								2817,
-								2817
-							],
-							[
-								2853,
-								2853
-							],
-							[
-								2918,
-								2918
-							],
-							[
-								2964,
-								2964
-							],
-							[
-								3070,
-								3070
-							],
-							[
-								3106,
-								3106
-							],
-							[
-								3171,
-								3171
-							],
-							[
-								3217,
-								3217
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "source/stylesheets/lib/_variables.css.sass",
-					"settings":
-					{
-						"buffer_size": 69,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								40,
-								40
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "source/stylesheets/application.css.sass",
-					"settings":
-					{
-						"buffer_size": 20,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9,
-								9
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
